@@ -6,8 +6,8 @@
     --theme-color-main: #99AABF;
     --theme-color-contrast-dark: #fff;
     --theme-color-contrast-light: #fff;
-    --theme-color-contras-greyt: #fff;
-}x
+    --theme-color-contras-grey: #fff;
+}
 
 body{
     background-color: var(--theme-background-dark);
