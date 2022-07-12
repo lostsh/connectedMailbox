@@ -9,7 +9,7 @@
     --theme-color-contras-greyt: #fff;
 }x
 
-html{
+body{
     background-color: var(--theme-background-dark);
 }
 
