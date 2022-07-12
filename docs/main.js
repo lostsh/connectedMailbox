@@ -11,6 +11,17 @@ function main() {
 
 }
 
+/**
+ * Get the last arduino workflow run
+ * from the github api data.
+ * @param {*} anchor the anchor to display date
+ * @param {*} letters array containing all runs
+ */
 function showLast(anchor, letters){
-    anchor.textContent = letters[0].created_at;
+
+    var lastLetter = "";
+
+    lastLetter = letters.find(element => element.name = "Arduino workflow");
+
+    anchor.textContent = new Date(lastLetter.created_at).toLocaleString();
 }

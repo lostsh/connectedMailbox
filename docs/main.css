@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
+:root{
+    --theme-background-light: #2F3D59;
+    --theme-background-dark: #141826;
+    --theme-color-main: #99AABF;
+    --theme-color-contrast-dark: #fff;
+    --theme-color-contrast-light: #fff;
+    --theme-color-contras-greyt: #fff;
+}x
+
+html{
+    background-color: var(--theme-background-dark);
+}
+
+header{
+    display: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Rajdhani', sans-serif;
+    font-size: xx-large;
+    color: var(--theme-color-main);
+    height: 90vh;
+}
+
+footer{
+    display: none;
+}
