@@ -13,8 +13,11 @@ Arduino connected mailbox
 
 ## Examples
 
-<img align="left" src="docs/example.jpg">
-<img align="right" src="docs/example-1.jpg">
+<img width="45%" align="right" src="docs/example-1.jpg">
+<img width="45%" src="docs/example.jpg">
+
+<br>
+<br>
 
 ## Todo :
 - [ ] For the web interface : be sure to only select worflow related to the arduino 
